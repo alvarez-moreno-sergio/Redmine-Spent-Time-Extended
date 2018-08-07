@@ -19,3 +19,7 @@ This information is saved inside issue's data:
 # How to use
 * The user presses the new button as he/she starts working on an issue.
 * When the user finishes the first Issue, he/she just need to start working on another one, pressing again the button on the Issue which is currently working in.
+
+# How to implement on current Redmine server
+Implementation is very simple. Just need to reference current javascript inside the next webpage file:
+* redmine-3.3.0-1\apps\redmine\htdocs\app\views\issues
